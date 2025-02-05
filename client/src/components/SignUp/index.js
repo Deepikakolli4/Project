@@ -26,7 +26,7 @@ const submitHandler = async(e) =>{
       alert("passwords are not matching");
     }else{
       try {
-        const response = await fetch("http://localhost:8000/user/", {
+        const response = await fetch("https://project-esoc-git-main-kollideepikas-projects.vercel.app/user/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
