@@ -11,7 +11,7 @@ const ExploreSection = () => {
   const getRestaurants = async () => {
     try {
       const response = await axios.get(
-        "https://project-esoc-git-main-kollideepikas-projects.vercel.app?page=1&limit=10",
+        "https://project-esoc-git-main-kollideepikas-projects.vercel.app/restaurant",
         {
           adapter: axios.defaults.adapter, // Force browser adapter
         }
